@@ -1,0 +1,27 @@
+ Oldagram
+
+Oldagram is a small front-end practice project that recreates a simple Instagram-style feed using 'HTML, CSS and JavaScript'.
+
+It displays a list of posts from classic artists like 'Vincent van Gogh', 'Gustave Courbet' and 'Joseph Ducreux', with their avatars, locations, images, likes and comments.
+
+The post data is stored in a JavaScript array and rendered on the page to create a clean, scrollable social-media style layout.
+
+ Features
+
+* Static feed layout (profile, post image, icons, likes and caption)
+* Responsive image handling
+* Simple, clean UI built with pure CSS
+* All data managed from a single JavaScript file
+
+ Tech used
+
+* HTML
+* CSS
+* Vanilla JavaScript
+
+This project was built as a learning exercise to practice layout, styling, and working with JavaScript data to generate UI content.
+
+
+ License
+This portfolio is for personal use and demonstration purposes.
+
