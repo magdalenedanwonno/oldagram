@@ -1,27 +1,25 @@
- Oldagram
+Oldagram
 
-Oldagram is a small front-end practice project that recreates a simple Instagram-style feed using 'HTML, CSS and JavaScript'.
+Oldagram is a small front-end practice project that recreates a simple Instagram-style feed using HTML, CSS, and JavaScript.
 
-It displays a list of posts from classic artists like 'Vincent van Gogh', 'Gustave Courbet' and 'Joseph Ducreux', with their avatars, locations, images, likes and comments.
+It displays a list of posts from classic artists like 'Vincent van Gogh', 'Gustave Courbet', and 'Joseph Ducreux', with their avatars, locations, images, likes, and comments.
 
-The post data is stored in a JavaScript array and rendered on the page to create a clean, scrollable social-media style layout.
+The post data is stored in a JavaScript array and used to update the page dynamically to create a clean, scrollable social-media style layout.
 
- Features
+Features
 
-* Static feed layout (profile, post image, icons, likes and caption)
-* Responsive image handling
-* Simple, clean UI built with pure CSS
-* All data managed from a single JavaScript file
+* **Interactive Likes**: Users can like posts by clicking the heart icon, which updates the count and changes the icon color.
+* **Responsive Layout**: Mobile-friendly feed with profile headers, post images, and interaction sections.
+* **Modern CSS**: Uses filters and transitions for an authentic "app-like" feel.
+* **Event Delegation**: Efficient JavaScript logic to handle interactions across multiple posts.
 
- Tech used
+Tech Used
 
-* HTML
-* CSS
-* Vanilla JavaScript
+* **HTML**: Semantic structure for social media posts.
+* **CSS**: Custom styling with filters, flexbox, and sticky positioning.
+* **Vanilla JavaScript**: DOM manipulation and event listeners for real-time interactivity.
 
 This project was built as a learning exercise to practice layout, styling, and working with JavaScript data to generate UI content.
 
-
- License
+License
 This portfolio is for personal use and demonstration purposes.
-
