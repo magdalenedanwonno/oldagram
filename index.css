@@ -3,19 +3,18 @@ html, body {
     padding: 0;
 }
 
-body{
+body {
     overflow-x: hidden;
-    font-family: "Source Sans 3", sans-serif;;
+    font-family: "Source Sans 3", sans-serif; /* Fixed double semicolon */
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 67px;
     padding: 35px 15px;
-    
     position: sticky;
     top: 0;
     background-color: white;
@@ -24,68 +23,68 @@ header{
     border-bottom: 2px solid lightgrey;
 }
 
-
-.logo{
+.logo {
     width: 110px;
-
 }
 
-
-.info-section{
+.info-section {
     display: flex;
     align-items: center;
     gap: 13px;
     margin-bottom: 0 !important;
-    padding-bottom: 0 !important
-
+    padding-bottom: 0 !important; /* Fixed missing semicolon */
 }
 
 .user-avatar,
-.avatar{
+.avatar {
     width: 50px;
     height: 50px;
-    border-radius: 100%;
+    border-radius: 50%; /* 50% is standard for perfect circles */
     object-fit: cover;
 }
 
 .info-section,
-.interaction-section{
+.interaction-section {
     padding: 10px; 
 }
 
-.post-section{
+.post-section {
     height: 400px;
     width: 100%;
     position: relative;
     overflow: hidden;
 }
 
-.post-section img{
+.post-section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.interaction-section
-{
+.interaction-section {
     margin-top: 15px;
 }
 
-.icons{
+.icons {
     display: flex;
     gap: 12px;
 }
 
-
-.icon{
+.icon {
     width: 25px;
     height: 25px;
-    
-    transition: transform 0.3s ease;   
+    cursor: pointer;
+    transition: transform 0.2s ease;   
 }
 
-.icon:hover{
-    cursor: pointer;
-    transform: scale(1.3); 
-} 
+.icon:hover {
+    transform: scale(1.2); 
+}
+
+/* Turns the heart icon red */
+.liked {
+    filter: invert(27%) sepia(91%) saturate(2352%) hue-rotate(331deg) brightness(94%) contrast(94%) !important;
+    transform: scale(1.2);
+    transition: transform 0.1s ease;
+}
